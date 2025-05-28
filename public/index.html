@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nurse Consult - Curso Online de Enfermagem</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+</head>
+<body>
+  <header>
+    <div class="container header-container">
+      <div class="logo">
+        <h1>Nurse Consult</h1>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#diferenciais">Diferenciais</a></li>
+          <li><a href="#depoimentos">Depoimentos</a></li>
+          <li><a href="#inscricao">Inscreva-se</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-content">
+      <h2>Curso de Enfermagem <br> 100% Online e Flexível</h2>
+      <p>Aprenda de onde estiver com aulas práticas e teóricas, no seu ritmo, com suporte especializado.</p>
+      <a href="#inscricao" class="btn-primary">Quero me inscrever</a>
+    </div>
+  </section>
+
+  <section id="sobre" class="sobre container">
+  <h3>Sobre o Curso</h3>
+  <div class="sobre-conteudo">
+    <p>
+      O <strong>Nurse Consult</strong> é mais do que um curso, é uma jornada transformadora para quem deseja ingressar ou se atualizar na área da <strong>Enfermagem</strong>. Com uma metodologia moderna e acessível, nosso curso 100% online foi pensado para você que busca praticidade sem abrir mão da qualidade.
+    </p>
+
+    <div class="sobre-itens">
+      <div class="item">
+        <i class="fas fa-laptop-medical"></i>
+        <h4>Formação Completa</h4>
+        <p>Desde os fundamentos da Enfermagem até cuidados intensivos, passando por saúde pública, primeiros socorros e muito mais.</p>
+      </div>
+
+      <div class="item">
+        <i class="fas fa-chalkboard-teacher"></i>
+        <h4>Professores Especializados</h4>
+        <p>Aprenda com profissionais da área da saúde com ampla experiência em ensino e prática clínica.</p>
+      </div>
+
+      <div class="item">
+        <i class="fas fa-clock"></i>
+        <h4>Flexibilidade Total</h4>
+        <p>Estude no seu tempo, revise as aulas sempre que quiser e monte sua própria rotina de aprendizado.</p>
+      </div>
+
+      <div class="item">
+        <i class="fas fa-certificate"></i>
+        <h4>Certificação Reconhecida</h4>
+        <p>Receba um certificado digital válido em todo o território nacional após a conclusão do curso.</p>
+      </div>
+    </div>
+
+    <p>
+      Com materiais interativos, fóruns de discussão e acompanhamento pedagógico, o Nurse Consult é ideal para quem quer se destacar no mercado da saúde. Invista na sua carreira com flexibilidade, qualidade e apoio de verdade.
+    </p>
+  </div>
+</section>
+
+
+
+  <section id="diferenciais" class="diferenciais container">
+    <h3>Diferenciais</h3>
+    <ul class="diferenciais-list">
+      <li>Aulas 100% online com material didático atualizado.</li>
+      <li>Flexibilidade para estudar no horário que preferir.</li>
+      <li>Professores experientes e apoio contínuo.</li>
+      <li>Certificado reconhecido nacionalmente.</li>
+    </ul>
+  </section>
+
+  <section id="depoimentos" class="depoimentos container">
+    <h3>O que nossos alunos dizem</h3>
+    <div class="depoimento-slide">
+      <blockquote>
+        "O curso me ajudou muito a conciliar estudo e trabalho. A plataforma é fácil de usar."
+        <footer>- Ana Paula</footer>
+      </blockquote>
+      <blockquote>
+        "A metodologia online é clara e os professores estão sempre disponíveis."
+        <footer>- Carlos Eduardo</footer>
+      </blockquote>
+      <blockquote>
+        "Recomendo para quem quer estudar enfermagem sem sair de casa."
+        <footer>- Marina Silva</footer>
+      </blockquote>
+    </div>
+  </section>
+
+  <section id="inscricao" class="inscricao container">
+    <h3>Inscreva-se Agora</h3>
+    <form action="#" method="POST" class="form-inscricao">
+      <input type="text" name="nome" placeholder="Seu nome completo" required />
+      <input type="email" name="email" placeholder="Seu melhor e-mail" required />
+      <input type="tel" name="telefone" placeholder="Telefone (opcional)" />
+      <select name="turno" required>
+        <option value="" disabled selected>Selecione o turno</option>
+        <option value="matutino">Matutino</option>
+        <option value="vespertino">Vespertino</option>
+        <option value="noturno">Noturno</option>
+      </select>
+      <button type="submit" class="btn-primary" id="btnInscricao">Enviar inscrição</button>
+    </form>
+  </section>
+
+  <footer>
+  <div class="container footer-container">
+    <p>© 2025 Nurse Consult - Todos os direitos reservados.</p>
+    <div class="socials">
+      <a href="https://www.instagram.com/nurse_consult/?hl=pt-br" aria-label="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://wa.me/(33)98763-0763" aria-label="WhatsApp" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://facebook.com/seuperfil" aria-label="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+    </div>
+  </div>
+</footer>
+<script>
+  const form = document.querySelector('.form-inscricao');
+  const botao = document.getElementById('btnInscricao');
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault(); 
+    botao.disabled = true;
+    botao.innerHTML = '<span class="loader"></span> Enviando inscrição...';
+
+    setTimeout(() => {
+      botao.innerHTML = '✅ Inscrição realizada!';
+      
+      setTimeout(() => {
+        botao.innerHTML = 'Enviar Inscrição';
+        botao.disabled = false;
+        form.reset(); 
+      }, 2000);
+    }, 2000);
+  });
+</script>
+
+</body>
+</html>
